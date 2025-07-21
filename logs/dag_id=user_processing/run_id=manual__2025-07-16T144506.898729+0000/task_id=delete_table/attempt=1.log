@@ -1,0 +1,8 @@
+{"timestamp":"2025-07-16T14:45:07.967786","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-07-16T14:45:07.968657","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/user_processing.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-16T14:45:08.014231","level":"info","event":"Executing: \n            DROP TABLE IF EXISTS users\n        ","logger":"airflow.task.operators.airflow.providers.common.sql.operators.sql.SQLExecuteQueryOperator"}
+{"timestamp":"2025-07-16T14:45:08.015613","level":"info","event":"Secrets backends loaded for worker","count":1,"backend_classes":["EnvironmentVariablesBackend"],"logger":"supervisor"}
+{"timestamp":"2025-07-16T14:45:08.035096","level":"info","event":"Connection Retrieved 'postgres'","logger":"airflow.hooks.base"}
+{"timestamp":"2025-07-16T14:45:08.036008","level":"info","event":"Secrets backends loaded for worker","count":1,"backend_classes":["EnvironmentVariablesBackend"],"logger":"supervisor"}
+{"timestamp":"2025-07-16T14:45:08.042084","level":"info","event":"Connection Retrieved 'postgres'","logger":"airflow.hooks.base"}
+{"timestamp":"2025-07-16T14:45:08.046067","level":"info","event":"Running statement: \n            DROP TABLE IF EXISTS users\n        , parameters: None","logger":"airflow.task.hooks.airflow.providers.postgres.hooks.postgres.PostgresHook"}

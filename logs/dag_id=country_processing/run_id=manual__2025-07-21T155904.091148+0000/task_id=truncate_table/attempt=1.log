@@ -1,0 +1,8 @@
+{"timestamp":"2025-07-21T15:59:04.672660","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-07-21T15:59:04.673125","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/country_processing.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-21T15:59:05.017752","level":"info","event":"Executing: \n        TRUNCATE TABLE countries\n        ","logger":"airflow.task.operators.airflow.providers.common.sql.operators.sql.SQLExecuteQueryOperator"}
+{"timestamp":"2025-07-21T15:59:05.018587","level":"info","event":"Secrets backends loaded for worker","count":1,"backend_classes":["EnvironmentVariablesBackend"],"logger":"supervisor"}
+{"timestamp":"2025-07-21T15:59:05.042392","level":"info","event":"Connection Retrieved 'postgres'","logger":"airflow.hooks.base"}
+{"timestamp":"2025-07-21T15:59:05.042848","level":"info","event":"Secrets backends loaded for worker","count":1,"backend_classes":["EnvironmentVariablesBackend"],"logger":"supervisor"}
+{"timestamp":"2025-07-21T15:59:05.046424","level":"info","event":"Connection Retrieved 'postgres'","logger":"airflow.hooks.base"}
+{"timestamp":"2025-07-21T15:59:05.049284","level":"info","event":"Running statement: \n        TRUNCATE TABLE countries\n        , parameters: None","logger":"airflow.task.hooks.airflow.providers.postgres.hooks.postgres.PostgresHook"}

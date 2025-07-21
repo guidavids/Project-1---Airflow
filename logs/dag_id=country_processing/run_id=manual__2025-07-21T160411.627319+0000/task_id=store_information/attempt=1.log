@@ -1,0 +1,6 @@
+{"timestamp":"2025-07-21T16:04:18.324699","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-07-21T16:04:18.325045","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/country_processing.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-21T16:04:18.672524","level":"info","event":"Running copy expert: COPY countries(name, currency, gini_score, population) FROM STDIN WITH CSV HEADER, filename: /tmp/transformed_country_info.csv","logger":"airflow.task.hooks.airflow.providers.postgres.hooks.postgres.PostgresHook"}
+{"timestamp":"2025-07-21T16:04:18.673234","level":"info","event":"Secrets backends loaded for worker","count":1,"backend_classes":["EnvironmentVariablesBackend"],"logger":"supervisor"}
+{"timestamp":"2025-07-21T16:04:18.687015","level":"info","event":"Connection Retrieved 'postgres'","logger":"airflow.hooks.base"}
+{"timestamp":"2025-07-21T16:04:18.691509","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.decorators.python._PythonDecoratedOperator"}

@@ -1,0 +1,17 @@
+{"timestamp":"2025-07-21T14:09:26.925424","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-07-21T14:09:26.925800","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/country_processing.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-21T14:09:27.285055Z","level":"info","event":"                   name            currency      gini_index  population","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-21T14:09:27.285660Z","level":"info","event":"0               Moldova        Moldovan leu  {'2018': 25.7}     2617820","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-21T14:09:27.286029Z","level":"info","event":"1               Comoros      Comorian franc  {'2014': 45.3}      869595","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-21T14:09:27.286399Z","level":"info","event":"2              Malaysia   Malaysian ringgit  {'2015': 41.1}    32365998","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-21T14:09:27.286730Z","level":"info","event":"3               Algeria      Algerian dinar  {'2011': 27.6}    44700000","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-21T14:09:27.287050Z","level":"info","event":"4              Slovenia                Euro  {'2018': 24.6}     2100126","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-21T14:09:27.287289Z","level":"info","event":"..                  ...                 ...             ...         ...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-21T14:09:27.287936Z","level":"info","event":"190  Dominican Republic      Dominican peso  {'2019': 41.9}    10847904","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-21T14:09:27.288387Z","level":"info","event":"191             Belgium                Euro  {'2018': 27.2}    11555997","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-21T14:09:27.288911Z","level":"info","event":"192          Mozambique  Mozambican metical  {'2014': 54.0}    31255435","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-21T14:09:27.289431Z","level":"info","event":"193           Mauritius     Mauritian rupee  {'2017': 36.8}     1265740","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-21T14:09:27.289912Z","level":"info","event":"194          Azerbaijan   Azerbaijani manat  {'2005': 26.6}    10110116","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-21T14:09:27.290356Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-21T14:09:27.290734Z","level":"info","event":"[195 rows x 4 columns]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-21T14:09:27.275169","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.decorators.python._PythonDecoratedOperator"}

@@ -1,0 +1,8 @@
+{"timestamp":"2025-07-21T14:23:33.297146","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-07-21T14:23:33.297523","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/country_processing.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-21T14:23:33.700668","level":"info","event":"Executing: \n        DROP TABLE IF EXISTS countries\n        ","logger":"airflow.task.operators.airflow.providers.common.sql.operators.sql.SQLExecuteQueryOperator"}
+{"timestamp":"2025-07-21T14:23:33.701479","level":"info","event":"Secrets backends loaded for worker","count":1,"backend_classes":["EnvironmentVariablesBackend"],"logger":"supervisor"}
+{"timestamp":"2025-07-21T14:23:33.725194","level":"info","event":"Connection Retrieved 'postgres'","logger":"airflow.hooks.base"}
+{"timestamp":"2025-07-21T14:23:33.725647","level":"info","event":"Secrets backends loaded for worker","count":1,"backend_classes":["EnvironmentVariablesBackend"],"logger":"supervisor"}
+{"timestamp":"2025-07-21T14:23:33.730032","level":"info","event":"Connection Retrieved 'postgres'","logger":"airflow.hooks.base"}
+{"timestamp":"2025-07-21T14:23:33.732675","level":"info","event":"Running statement: \n        DROP TABLE IF EXISTS countries\n        , parameters: None","logger":"airflow.task.hooks.airflow.providers.postgres.hooks.postgres.PostgresHook"}
