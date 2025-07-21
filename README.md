@@ -28,12 +28,9 @@ Documentation: READMEs across multiple folders
 
 Project Management: Trello
 
-
-
 ## Pipeline Design:
 
 ![graph](project1_graph.png)
-
 
 ## Setting up the environment:
 
@@ -52,12 +49,14 @@ Set up a virtual environment with PyCharm or your preferred Python interpreter t
 ### 3. Start Docker with the .yaml file
 
 Type "docker compose up" on any terminal when Docker Desktop is running. When done with the "-d" flag it will run in disjointed format  
-
-Type "docker compose down" for when you want to stop and delete the containers whilst retaining the images  
+Note: Type "docker compose down" for when you want to stop and delete the containers whilst retaining the images  
 
 ### 4. Access Airflow UI
 
 Open your preferred browser and enter "http://localhost:8080" when Docker is running or click 8080:8080 on the "containers" section of Docker Desktop  
+Airflow Login details:  
+- username: airflow
+- password: airflow
 
 ## Project Management
 
