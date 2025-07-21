@@ -24,7 +24,7 @@ Data Source: REST Countries API (https://restcountries.com)
 
 Data Store: PostgreSQL
 
-Documentation: READMEs across multiple folders
+Documentation: README.md and .pdf
 
 Project Management: Trello
 
