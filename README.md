@@ -41,7 +41,7 @@ Project Management: Trello
 
 ### 1. Clone the Repository from GitHub
 
-git clone <>
+git clone https://github.com/guidavids/Project-1---Airflow.git
 
 cd "Project 1 - Airflow"
 

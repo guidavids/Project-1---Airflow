@@ -605,3 +605,13 @@
 {"timestamp":"2025-07-21T16:43:24.166703","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/country_processing.py","logger":"airflow.models.dagbag.DagBag"}
 {"timestamp":"2025-07-21T16:43:55.173552","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/country_processing.py","logger":"airflow.models.dagbag.DagBag"}
 {"timestamp":"2025-07-21T16:44:26.716547","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/country_processing.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-21T16:44:58.088839","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/country_processing.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-21T16:45:29.296670","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/country_processing.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-21T16:46:00.595037","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/country_processing.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-21T16:46:31.978054","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/country_processing.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-21T16:47:03.029640","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/country_processing.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-21T16:47:33.961492","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/country_processing.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-21T16:48:05.342481","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/country_processing.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-21T16:48:36.950741","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/country_processing.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-21T16:49:08.640119","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/country_processing.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-21T16:49:39.916171","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/country_processing.py","logger":"airflow.models.dagbag.DagBag"}
