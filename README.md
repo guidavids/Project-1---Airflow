@@ -14,8 +14,6 @@ The project consists of the following:
 * Loads transformed data into a PostgreSQL Database through Airflow
 * Uses DAGs inside Airflow to schedule and perform tasks
 
-
-
 ## Tools Used:
 
 Workflow: Apache Airflow
@@ -61,7 +59,18 @@ Type "docker compose down" for when you want to stop and delete the containers w
 
 Open your preferred browser and enter "http://localhost:8080" when Docker is running or click 8080:8080 on the "containers" section of Docker Desktop  
 
+## Project Management
 
-
-
-
+This project was managed using **Trello**  
+The tasks were as follows:
+- Data Source: Find Dataset
+- Data Sore: Choose Databse
+- Set up Docker Desktop
+- Set up Docker images and containers
+- Create the main Diagram
+- Create the Database Table
+- Create the ETL Pipeline
+    - Extract data from API
+    - Transform and clean data (if applicable)
+    - Load the data into a .csv file
+- Load data into Postgres with Airflow dags
