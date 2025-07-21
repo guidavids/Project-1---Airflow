@@ -1,9 +1,9 @@
-\# Project 1 - ETL with Airflow
+# Project 1 - ETL with Airflow
 
 This project consists of an ETL pipeline built with Apache Airflow containerised in Docker and utilising PostgreSQL.
 
 
-\## Project Overview
+## Project Overview
 
 This project demonstrates an ETL pipeline using Apache Airflow containerised in Docker.  
 
@@ -16,7 +16,7 @@ The project consists of the following:
 
 
 
-\## Tools Used:
+## Tools Used:
 
 Workflow: Apache Airflow
 
@@ -32,32 +32,32 @@ Project Management: Trello
 
 
 
-\## Pipeline Design:
+## Pipeline Design:
 
 ![graph](project1_graph.png)
 
 
-\## Setting up the environment:
+## Setting up the environment:
 
-\### 1. Clone the Repository from GitHub
+### 1. Clone the Repository from GitHub
 
 git clone <>
 
 cd "Project 1 - Airflow"
 
-\### 2. Run in your preferred environment
+### 2. Run in your preferred environment
 
 Open with PyCharm (or any other IDE)  
 
 Set up a virtual environment with PyCharm or your preferred Python interpreter to read and run the .py files  
 
-\### 3. Start Docker with the .yaml file
+### 3. Start Docker with the .yaml file
 
 Type "docker compose up" on any terminal when Docker Desktop is running. When done with the "-d" flag it will run in disjointed format  
 
 Type "docker compose down" for when you want to stop and delete the containers whilst retaining the images  
 
-\### 4. Access Airflow UI
+### 4. Access Airflow UI
 
 Open your preferred browser and enter "http://localhost:8080" when Docker is running or click 8080:8080 on the "containers" section of Docker Desktop  
 
